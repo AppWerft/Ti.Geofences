@@ -5,8 +5,9 @@
 ```
 var Geofences = require("ti.geofences");
 
-var fence = Geofences.createFence();
+var fence1 = Geofences.createCircularRegion();
+var fence2 = Geofences.createPolygonRegion();
 
-Geofences.start(fence);
+Geofences.start(fence1);
 
 ```
